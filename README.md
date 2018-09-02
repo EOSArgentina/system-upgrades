@@ -71,7 +71,7 @@ eoscafeblock
 ## Diff  v1.1.0 v1.1.0-patch3
 
 
-```
+```diff
 diff /tmp/eosio.contracts-v1.1.0-patch3/eosio.system/src/ /tmp/eosio.contracts-v1.2.1/eosio.system/src/delegate_bandwidth.cpp
 32a33
 >    static constexpr int64_t ram_gift_bytes = 1400;
@@ -154,7 +154,7 @@ diff /tmp/eosio.contracts-v1.1.0-patch3/eosio.system/src/producer_pay.cpp /tmp/e
 
 ## Diff v1.1.0-patch3  v1.2.1
 
-```
+```diff
 diff /tmp/eosio.contracts-v1.1.0-patch3/eosio.system/src/delegate_bandwidth.cpp /tmp/eosio.contracts-v1.2.1/eosio.system/src/delegate_bandwidth.cpp
 32a33
 >    static constexpr int64_t ram_gift_bytes = 1400;
