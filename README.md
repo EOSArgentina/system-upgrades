@@ -340,3 +340,38 @@ diff /tmp/eosio.contracts-v1.1.0-patch3/eosio.system/src/producer_pay.cpp /tmp/e
 ---
 >             auto highest = idx.lower_bound( std::numeric_limits<uint64_t>::max()/2 );
 ```
+
+## ABI Diff v1.1.0-patch3 v1.2.1
+
+```diff
+738c738
+<       "name": "namebid_info",
+---
+>       "name": "name_bid",
+753a754,764
+>     },{
+>       "name": "bid_refund",
+>       "base": "",
+>       "fields": [{
+>           "name": "bidder",
+>           "type": "account_name"
+>         },{
+>           "name": "amount",
+>           "type": "asset"
+>         }
+>       ]
+963c974,984
+<       "type": "namebid_info"
+---
+>       "type": "name_bid"
+>     },{
+>       "name": "bidrefunds",
+>       "index_type": "i64",
+>       "key_names": [
+>         "bidder"
+>       ],
+>       "key_types": [
+>         "account_name"
+>       ],
+>       "type": "bid_refund"
+```
