@@ -12,6 +12,13 @@ EOS Argentina is proposing upgrading system[0] from version v1.1.0-patch3 to ver
 * version v1.2.1 HASH: b721d706e5ea6dbdfd6fc601bbc3e52adca5c83138e3326290451ef888707b6d
 * version v1.1.0-patch3  HASH: ec02a22b7f15064f3ff86564ef9e34e2c68ac9061023b11b47e1adfceedf1368
 
+## Build details 
+
+* wasmsdk: v1.1.1
+* eosio: v1.2.3
+* eosio.contracts: v1.2.1
+
+
 ## Requested permissions
 ```
 eoslaomaocom
